@@ -4,7 +4,9 @@
       <q-icon name="menu" />
     </q-btn>
     <q-toolbar-title>
-      Jotas JS
+      <q-btn flat @click="goHome()" big>
+        Jotas JS
+      </q-btn>
     </q-toolbar-title>
     <q-btn color='secondary'>
       <q-icon name="search"/>
@@ -18,6 +20,9 @@
     methods: {
       clickDrawer() {
         this.$emit('drawerClick')
+      },
+      goHome() {
+        this.jotaRouter.navigateToAllGigs()
       }
     }
   }
