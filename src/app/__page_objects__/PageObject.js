@@ -1,5 +1,3 @@
-import Vue from 'vue'
-
 export default class PageObject {
   constructor(wrapper) {
     this.wrapper = wrapper

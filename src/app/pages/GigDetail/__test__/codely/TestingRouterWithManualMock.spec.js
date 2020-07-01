@@ -6,7 +6,6 @@ import { FIRST_GIG } from '../../../../services/__mocks__/gigs-sample'
 jest.mock('@/app/services/jota-api')
 
 describe('Gig Detail', () => {
-
   it('renders details from a Gig with router after', async () => {
     const routerSpy = new VueRouter()
     const wrapper = mount(GigDetail, { router: routerSpy })

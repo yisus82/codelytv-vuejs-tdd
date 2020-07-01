@@ -5,7 +5,6 @@ import { FIRST_DAY } from '../../../../services/__mocks__/gigs-sample'
 jest.mock('@/app/services/jota-api')
 
 describe('Days', () => {
-
   let wrapper
   beforeEach(async () => {
     wrapper = mount(Days)

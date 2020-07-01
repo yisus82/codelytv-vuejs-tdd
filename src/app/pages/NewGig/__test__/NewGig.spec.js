@@ -17,9 +17,7 @@ describe('New Gig', () => {
   })
 
   describe('shows validation error', () => {
-
     describe('when validating title', () => {
-
       it('and title is cleared', async () => {
         page.dirtyValidation()
         await page.wait()

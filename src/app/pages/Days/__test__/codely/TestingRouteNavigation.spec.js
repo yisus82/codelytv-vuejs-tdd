@@ -13,7 +13,6 @@ describe('Days', () => {
   })
 
   describe('When clicking buttons', () => {
-
     it('navigates to first gig detail', async () => {
       const FIRST_GIG = FIRST_DAY.gigs[0]
       clickGig(wrapper, 0)

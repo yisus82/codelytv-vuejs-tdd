@@ -23,7 +23,6 @@ describe('Days', () => {
   })
 
   describe('When clicking buttons', () => {
-
     let navigateToGigSpy
     beforeEach(() => {
       navigateToGigSpy = jest.fn()

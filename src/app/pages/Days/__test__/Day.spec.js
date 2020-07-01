@@ -5,7 +5,6 @@ import DayListPageObject from '../../../__page_objects__/DayPageObject'
 import { localizedFromIso } from '../../../services/date-utils'
 
 describe('Day', () => {
-
   let page, wrapper
   beforeEach(async () => {
     wrapper = Wrap(Day)

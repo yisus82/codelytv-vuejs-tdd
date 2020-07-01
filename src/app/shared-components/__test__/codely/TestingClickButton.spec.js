@@ -2,16 +2,13 @@ import FormButton from '@/app/shared-components/FormButton.vue'
 import { mount } from '@vue/test-utils'
 
 describe('FormButton.vue', () => {
-
   describe('When clicking', () => {
-
     let clickSpy
     beforeEach(() => {
       clickSpy = jest.fn()
     })
 
     it('calls callback if enabled', () => {
-
       const wrapper = mount(FormButton, {
         propsData: {onClick: clickSpy}
       })

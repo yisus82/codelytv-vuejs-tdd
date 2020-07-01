@@ -7,14 +7,12 @@ import DateTimeInput from '@/app/shared-components/DateTimeInput.vue'
 jest.mock('@/app/services/jota-api')
 
 describe('New Gig Form', () => {
-
   let wrapper
   beforeEach(() => {
     wrapper = mount(NewGig, { sync: false })
   })
 
   describe('shows validation error', () => {
-
     it('when title is too short', async () => {
       let input = wrapper.find(TextInput).find('input')
 

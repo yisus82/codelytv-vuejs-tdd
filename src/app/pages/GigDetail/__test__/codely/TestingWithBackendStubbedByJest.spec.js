@@ -5,7 +5,6 @@ import { FIRST_GIG } from '../../../../services/__mocks__/gigs-sample'
 jest.mock('@/app/services/jota-api')
 
 describe('Gig Detail', () => {
-
   it('renders details from a Gig (WITH async/await)', async () => {
     const wrapper = mount(GigDetail)
     await wait()

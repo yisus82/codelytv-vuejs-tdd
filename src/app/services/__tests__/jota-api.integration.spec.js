@@ -3,7 +3,6 @@ import { isoToday } from '../date-utils'
 import { createGigPayload } from '../jota-payloads'
 
 describe('jota api', () => {
-
   it('Returns valid gigs', async () => {
     const days = await retrieveDays()
 

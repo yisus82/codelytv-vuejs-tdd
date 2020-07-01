@@ -2,7 +2,6 @@ import LoadSpinner from '@/app/shared-components/LoadSpinner.vue'
 import { Wrap } from '../../../../test/helpers'
 
 describe('LoadSpinner.vue', () => {
-
   it('does not show loading', () => {
     const wrapper = Wrap(LoadSpinner).withProps({ isLoading: false }).mount()
     expect(wrapper.text()).not.toContain('Loading...')

@@ -3,7 +3,6 @@ import { mount } from '@vue/test-utils'
 import { createFakeGig } from '../../../../services/__mocks__/create-fake-gig'
 
 describe('Gig Detail', () => {
-
   it('renders details from a Gig', async () => {
     const GIG = createFakeGig()
     const retrieveAGigStub = jest.fn(() => Promise.resolve(GIG))

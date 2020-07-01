@@ -5,7 +5,6 @@ import NewGigPage from '../../../../__page_objects__/NewGigPageObject'
 jest.mock('@/app/services/jota-api')
 
 describe('New Gig Form', () => {
-
   let wrapper, page
   beforeEach(() => {
     wrapper = mount(NewGig)
@@ -13,7 +12,6 @@ describe('New Gig Form', () => {
   })
 
   describe('shows validation error', () => {
-
     it('when title is too short', () => {
       page.writeName(tooShortName())
 

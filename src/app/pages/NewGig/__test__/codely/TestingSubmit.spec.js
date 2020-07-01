@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import { mount } from '@vue/test-utils'
 import NewGig from '@/app/pages/NewGig/NewGig.vue'
 import TextInput from '@/app/shared-components/TextInput.vue'
@@ -52,6 +51,4 @@ function nameWithLength(length) {
 
 function wait() {
   return new Promise(resolve => setImmediate(resolve))
-
-  // return Vue.nextTick()
 }

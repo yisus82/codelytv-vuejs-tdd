@@ -2,9 +2,7 @@ import FormButton from '@/app/shared-components/FormButton.vue'
 import { Wrap } from '../../../../test/helpers'
 
 describe('FormButton.vue', () => {
-
   it('renders label', () => {
-
     const SLOT_CONTENT = '<p>Any text</p>'
     const wrapper = Wrap(FormButton)
       .withProps({label: 'SAVE'})
@@ -15,7 +13,6 @@ describe('FormButton.vue', () => {
   })
 
   describe('When clicking', () => {
-
     let clickSpy
     beforeEach(() => {
       clickSpy = jest.fn()

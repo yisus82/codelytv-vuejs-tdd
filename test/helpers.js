@@ -1,4 +1,5 @@
 import VueRouter from 'vue-router'
+import { sync } from 'vuex-router-sync'
 import { mount as _mount, shallow as _shallow } from '@vue/test-utils'
 
 export function resolvedPromise(promiseResult) {
@@ -18,7 +19,6 @@ export function stubDate(isoDate) {
 }
 
 export function Wrap(component) {
-
   return {mount, shallow, withProps, withSlots, withRouter, withStore, config}
 
   function withProps(props) {
