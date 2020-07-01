@@ -1,9 +1,9 @@
 {
-  "name": "JotaQuasar",
+  "name": "jota-quasar",
   "productName": "Jota JS",
   "version": "0.0.1",
   "description": "Jota Sample with Quasar",
-  "author": "Jesús Ángel Pérez-Roca Fernández",
+  "author": "Coding Stones",
   "license": "MIT",
   "scripts": {
     "clean": "node build/script.clean.js",

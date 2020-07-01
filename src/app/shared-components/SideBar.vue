@@ -8,6 +8,11 @@
       <q-item-main label="All Gigs"/>
       <q-item-side icon="keyboard_arrow_right" />
     </q-side-link>
+    <q-side-link item to="/today">
+      <q-item-side icon="today" />
+      <q-item-main label="Today"/>
+      <q-item-side icon="keyboard_arrow_right" />
+    </q-side-link>
     <q-item-separator></q-item-separator>
     <q-list-header>
       Admin
